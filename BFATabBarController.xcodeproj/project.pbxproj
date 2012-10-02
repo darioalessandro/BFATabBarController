@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB8A5A3F15FD0E320028F4A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8A5A3E15FD0E320028F4A8 /* UIKit.framework */; };
+		EB8A5A4115FD0E320028F4A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8A5A4015FD0E320028F4A8 /* Foundation.framework */; };
+		EB8A5A4315FD0E320028F4A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8A5A4215FD0E320028F4A8 /* CoreGraphics.framework */; };
+		EB8A5A4915FD0E320028F4A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB8A5A4715FD0E320028F4A8 /* InfoPlist.strings */; };
+		EB8A5A4B15FD0E320028F4A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8A5A4A15FD0E320028F4A8 /* main.m */; };
+		EB8A5A4F15FD0E320028F4A8 /* BFAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8A5A4E15FD0E320028F4A8 /* BFAAppDelegate.m */; };
+		EB8A5A5215FD0E320028F4A8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8A5A5015FD0E320028F4A8 /* MainStoryboard.storyboard */; };
+		EB8A5A5515FD0E320028F4A8 /* BFAFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8A5A5415FD0E320028F4A8 /* BFAFirstViewController.m */; };
+		EB8A5A5715FD0E320028F4A8 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8A5A5615FD0E320028F4A8 /* first.png */; };
+		EB8A5A5915FD0E320028F4A8 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8A5A5815FD0E320028F4A8 /* first@2x.png */; };
+		EB8A5A5C15FD0E320028F4A8 /* BFASecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8A5A5B15FD0E320028F4A8 /* BFASecondViewController.m */; };
+		EB8A5A5E15FD0E320028F4A8 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8A5A5D15FD0E320028F4A8 /* second.png */; };
+		EB8A5A6015FD0E320028F4A8 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8A5A5F15FD0E320028F4A8 /* second@2x.png */; };
+		EB8A5A6915FD0E620028F4A8 /* BFATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8A5A6715FD0E620028F4A8 /* BFATabBarController.m */; };
+		EB8A5A6A15FD0E620028F4A8 /* BFATabBarControllerMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8A5A6815FD0E620028F4A8 /* BFATabBarControllerMenuView.xib */; };
+		EB8A5A6C15FD0EF80028F4A8 /* menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8A5A6B15FD0EF80028F4A8 /* menu_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB8A5A3A15FD0E320028F4A8 /* BFATabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFATabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8A5A3E15FD0E320028F4A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB8A5A4015FD0E320028F4A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB8A5A4215FD0E320028F4A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB8A5A4615FD0E320028F4A8 /* BFATabBarController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BFATabBarController-Info.plist"; sourceTree = "<group>"; };
+		EB8A5A4815FD0E320028F4A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB8A5A4A15FD0E320028F4A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB8A5A4C15FD0E320028F4A8 /* BFATabBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BFATabBarController-Prefix.pch"; sourceTree = "<group>"; };
+		EB8A5A4D15FD0E320028F4A8 /* BFAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAAppDelegate.h; sourceTree = "<group>"; };
+		EB8A5A4E15FD0E320028F4A8 /* BFAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFAAppDelegate.m; sourceTree = "<group>"; };
+		EB8A5A5115FD0E320028F4A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EB8A5A5315FD0E320028F4A8 /* BFAFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAFirstViewController.h; sourceTree = "<group>"; };
+		EB8A5A5415FD0E320028F4A8 /* BFAFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFAFirstViewController.m; sourceTree = "<group>"; };
+		EB8A5A5615FD0E320028F4A8 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		EB8A5A5815FD0E320028F4A8 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		EB8A5A5A15FD0E320028F4A8 /* BFASecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFASecondViewController.h; sourceTree = "<group>"; };
+		EB8A5A5B15FD0E320028F4A8 /* BFASecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFASecondViewController.m; sourceTree = "<group>"; };
+		EB8A5A5D15FD0E320028F4A8 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		EB8A5A5F15FD0E320028F4A8 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		EB8A5A6615FD0E620028F4A8 /* BFATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFATabBarController.h; sourceTree = "<group>"; };
+		EB8A5A6715FD0E620028F4A8 /* BFATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFATabBarController.m; sourceTree = "<group>"; };
+		EB8A5A6815FD0E620028F4A8 /* BFATabBarControllerMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFATabBarControllerMenuView.xib; sourceTree = "<group>"; };
+		EB8A5A6B15FD0EF80028F4A8 /* menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_icon.png; sourceTree = "<group>"; };
+		EB8A5A7315FD0F3A0028F4A8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		EB8A5A7615FD0F3A0028F4A8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EB8A5A7715FD0F3A0028F4A8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB8A5A7815FD0F3A0028F4A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB8A5A7B15FD0F3A0028F4A8 /* BFATabBarControllerFW-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BFATabBarControllerFW-Info.plist"; sourceTree = "<group>"; };
+		EB8A5A7D15FD0F3A0028F4A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB8A5A7F15FD0F3A0028F4A8 /* BFATabBarControllerFW-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BFATabBarControllerFW-Prefix.pch"; sourceTree = "<group>"; };
+		EB8A5A8015FD0F3A0028F4A8 /* BFATabBarControllerFW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFATabBarControllerFW.h; sourceTree = "<group>"; };
+		EB8A5A8115FD0F3A0028F4A8 /* BFATabBarControllerFW.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFATabBarControllerFW.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB8A5A3715FD0E320028F4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8A5A3F15FD0E320028F4A8 /* UIKit.framework in Frameworks */,
+				EB8A5A4115FD0E320028F4A8 /* Foundation.framework in Frameworks */,
+				EB8A5A4315FD0E320028F4A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB8A5A2F15FD0E320028F4A8 = {
+			isa = PBXGroup;
+			children = (
+				EB8A5A4415FD0E320028F4A8 /* BFATabBarController */,
+				EB8A5A7915FD0F3A0028F4A8 /* BFATabBarControllerFW */,
+				EB8A5A3D15FD0E320028F4A8 /* Frameworks */,
+				EB8A5A3B15FD0E320028F4A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB8A5A3B15FD0E320028F4A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB8A5A3A15FD0E320028F4A8 /* BFATabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB8A5A3D15FD0E320028F4A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB8A5A3E15FD0E320028F4A8 /* UIKit.framework */,
+				EB8A5A4015FD0E320028F4A8 /* Foundation.framework */,
+				EB8A5A4215FD0E320028F4A8 /* CoreGraphics.framework */,
+				EB8A5A7315FD0F3A0028F4A8 /* Cocoa.framework */,
+				EB8A5A7515FD0F3A0028F4A8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB8A5A4415FD0E320028F4A8 /* BFATabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				EB8A5A6615FD0E620028F4A8 /* BFATabBarController.h */,
+				EB8A5A6715FD0E620028F4A8 /* BFATabBarController.m */,
+				EB8A5A6815FD0E620028F4A8 /* BFATabBarControllerMenuView.xib */,
+				EB8A5A6B15FD0EF80028F4A8 /* menu_icon.png */,
+				EB8A5A4D15FD0E320028F4A8 /* BFAAppDelegate.h */,
+				EB8A5A4E15FD0E320028F4A8 /* BFAAppDelegate.m */,
+				EB8A5A5015FD0E320028F4A8 /* MainStoryboard.storyboard */,
+				EB8A5A5315FD0E320028F4A8 /* BFAFirstViewController.h */,
+				EB8A5A5415FD0E320028F4A8 /* BFAFirstViewController.m */,
+				EB8A5A5615FD0E320028F4A8 /* first.png */,
+				EB8A5A5815FD0E320028F4A8 /* first@2x.png */,
+				EB8A5A5A15FD0E320028F4A8 /* BFASecondViewController.h */,
+				EB8A5A5B15FD0E320028F4A8 /* BFASecondViewController.m */,
+				EB8A5A5D15FD0E320028F4A8 /* second.png */,
+				EB8A5A5F15FD0E320028F4A8 /* second@2x.png */,
+				EB8A5A4515FD0E320028F4A8 /* Supporting Files */,
+			);
+			path = BFATabBarController;
+			sourceTree = "<group>";
+		};
+		EB8A5A4515FD0E320028F4A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB8A5A4615FD0E320028F4A8 /* BFATabBarController-Info.plist */,
+				EB8A5A4715FD0E320028F4A8 /* InfoPlist.strings */,
+				EB8A5A4A15FD0E320028F4A8 /* main.m */,
+				EB8A5A4C15FD0E320028F4A8 /* BFATabBarController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB8A5A7515FD0F3A0028F4A8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB8A5A7615FD0F3A0028F4A8 /* AppKit.framework */,
+				EB8A5A7715FD0F3A0028F4A8 /* CoreData.framework */,
+				EB8A5A7815FD0F3A0028F4A8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EB8A5A7915FD0F3A0028F4A8 /* BFATabBarControllerFW */ = {
+			isa = PBXGroup;
+			children = (
+				EB8A5A8015FD0F3A0028F4A8 /* BFATabBarControllerFW.h */,
+				EB8A5A8115FD0F3A0028F4A8 /* BFATabBarControllerFW.m */,
+				EB8A5A7A15FD0F3A0028F4A8 /* Supporting Files */,
+			);
+			path = BFATabBarControllerFW;
+			sourceTree = "<group>";
+		};
+		EB8A5A7A15FD0F3A0028F4A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB8A5A7B15FD0F3A0028F4A8 /* BFATabBarControllerFW-Info.plist */,
+				EB8A5A7C15FD0F3A0028F4A8 /* InfoPlist.strings */,
+				EB8A5A7F15FD0F3A0028F4A8 /* BFATabBarControllerFW-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB8A5A3915FD0E320028F4A8 /* BFATabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8A5A6315FD0E320028F4A8 /* Build configuration list for PBXNativeTarget "BFATabBarController" */;
+			buildPhases = (
+				EB8A5A3615FD0E320028F4A8 /* Sources */,
+				EB8A5A3715FD0E320028F4A8 /* Frameworks */,
+				EB8A5A3815FD0E320028F4A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BFATabBarController;
+			productName = BFATabBarController;
+			productReference = EB8A5A3A15FD0E320028F4A8 /* BFATabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB8A5A3115FD0E320028F4A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BFA;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Dario Lencina";
+			};
+			buildConfigurationList = EB8A5A3415FD0E320028F4A8 /* Build configuration list for PBXProject "BFATabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB8A5A2F15FD0E320028F4A8;
+			productRefGroup = EB8A5A3B15FD0E320028F4A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB8A5A3915FD0E320028F4A8 /* BFATabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB8A5A3815FD0E320028F4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8A5A4915FD0E320028F4A8 /* InfoPlist.strings in Resources */,
+				EB8A5A5215FD0E320028F4A8 /* MainStoryboard.storyboard in Resources */,
+				EB8A5A5715FD0E320028F4A8 /* first.png in Resources */,
+				EB8A5A5915FD0E320028F4A8 /* first@2x.png in Resources */,
+				EB8A5A5E15FD0E320028F4A8 /* second.png in Resources */,
+				EB8A5A6015FD0E320028F4A8 /* second@2x.png in Resources */,
+				EB8A5A6A15FD0E620028F4A8 /* BFATabBarControllerMenuView.xib in Resources */,
+				EB8A5A6C15FD0EF80028F4A8 /* menu_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB8A5A3615FD0E320028F4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8A5A4B15FD0E320028F4A8 /* main.m in Sources */,
+				EB8A5A4F15FD0E320028F4A8 /* BFAAppDelegate.m in Sources */,
+				EB8A5A5515FD0E320028F4A8 /* BFAFirstViewController.m in Sources */,
+				EB8A5A5C15FD0E320028F4A8 /* BFASecondViewController.m in Sources */,
+				EB8A5A6915FD0E620028F4A8 /* BFATabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB8A5A4715FD0E320028F4A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB8A5A4815FD0E320028F4A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB8A5A5015FD0E320028F4A8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB8A5A5115FD0E320028F4A8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		EB8A5A7C15FD0F3A0028F4A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB8A5A7D15FD0F3A0028F4A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB8A5A6115FD0E320028F4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB8A5A6215FD0E320028F4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB8A5A6415FD0E320028F4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFATabBarController/BFATabBarController-Prefix.pch";
+				INFOPLIST_FILE = "BFATabBarController/BFATabBarController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB8A5A6515FD0E320028F4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFATabBarController/BFATabBarController-Prefix.pch";
+				INFOPLIST_FILE = "BFATabBarController/BFATabBarController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB8A5A3415FD0E320028F4A8 /* Build configuration list for PBXProject "BFATabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8A5A6115FD0E320028F4A8 /* Debug */,
+				EB8A5A6215FD0E320028F4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB8A5A6315FD0E320028F4A8 /* Build configuration list for PBXNativeTarget "BFATabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8A5A6415FD0E320028F4A8 /* Debug */,
+				EB8A5A6515FD0E320028F4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB8A5A3115FD0E320028F4A8 /* Project object */;
+}
