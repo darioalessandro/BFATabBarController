@@ -32,10 +32,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [[self tabBar] setHidden:TRUE];
-    self.view.frame=CGRectMake(0,0,self.view.window.frame.size.width,self.view.window.frame.size.height);
-    [self performSelector:@selector(setupCustomTabBar) withObject:nil afterDelay:1];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(touchListener:) name:kTouchPhaseBeganCustomNotification object:nil];
+    //[[self tabBar] setHidden:TRUE];
+    //self.view.frame=CGRectMake(0,0,self.view.window.frame.size.width,self.view.window.frame.size.height);
+    //[self performSelector:@selector(setupCustomTabBar) withObject:nil afterDelay:1];
+    //[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(touchListener:) name:kTouchPhaseBeganCustomNotification object:nil];
 }
 
 -(void)setupCustomTabBar
